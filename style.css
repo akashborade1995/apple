@@ -1,0 +1,407 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+.navbar{
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.969);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+   
+}
+/* @media screen and (max-width:480px){
+    .navbar{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #navlist1{
+        display: flex;
+        flex-direction: column; 
+    }
+}  */
+.apple_logo{
+    width: 30px;
+    height: 44px;
+    margin-left: 180px;
+}
+.navbar>img{
+    width: 30px;
+    height: 44px;
+}
+#navlist1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#navlist1>li{
+    list-style-type: none;
+}
+#navlist1>li>a{
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    margin-inline: 12px;
+}
+.shopping_bag{
+    margin-right: 180px;
+}
+.top_section{
+    width: 90vw;
+    height: 129px;
+    /* background-color: aqua; */
+   box-sizing: border-box;
+}
+.iphone_14{
+    margin-inline: 12px;
+}
+.iphone_14>p{
+    text-align: start;
+    width: 70px;
+    height: 20px;
+    /* top: 62px; */
+
+}
+
+#iphone{
+     margin-left: 95px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.top_section>div>img{
+    width: 38.01px;
+    height: 47px;
+}
+.iphone_14>p{
+    color: rgba(29, 29, 31, 1);
+    font-size: 12px;
+    font-weight: 400;
+}
+.hero{
+    width: 90vw;
+    height: 1134.5px;
+    box-sizing: border-box;
+    /* margin-left: 144px; */
+    margin: auto;
+    margin-top: 100px;
+}
+.landing{
+    width: 980px;
+    height: 1021.5px;
+    margin-left: 144px;
+    margin: auto;
+   
+    /* background-color: blue; */
+
+}
+.upper{
+    width: 470.78px;
+    height: 200.5px;
+    margin-left: 254.61px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.below{
+    width: 788px;
+    height: 600px;
+    margin-top: 50.5px;
+    margin-left: 100px;
+    /* background-color: brown; */
+}
+.landing_button>button{
+   margin-inline: 20px;
+   color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    width: 61.203px;
+    height: 36px;
+    padding: 8px 15.6px 8px 16px;
+    border: none;
+    border-radius: 980px;
+    background-color: rgba(0, 113, 227, 1);
+}
+.landing_button>span{
+    width: 116.7px;
+    height: 25px;
+    color: rgba(0, 102, 204, 1);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+#new{
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(110, 110, 115, 1);
+}
+#iphone14{
+    font-weight: 600;
+    font-size:20px ;
+    color: rgb(61, 61, 62);
+}
+#big{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#trade{
+    /* color: #1D1D1F; */
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(110, 110, 115, 1);
+
+}
+.middle_page{
+    margin-top: 0px;
+    width: 90vw;
+    height:930.5px;
+    background-color:rgba(0, 0, 0, 1);
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: space-evenly;
+}
+.middlepage_top{
+    width: 300.2px;
+    height: 20px;
+    position: absolute;
+    top: 1440px;
+    /* background-color: #F65AAD; */
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.37400001287460327px;
+    text-align: center;
+    color: rgb(172, 172, 177);
+}
+.middlepage_upper{
+    width: 469.203px;
+    height: 213.5px;
+   /* background-color: #EC3D43; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+.middlepage_upper>h4{
+    font-weight: 600;
+    font-size:20px ;
+   color: rgba(245, 245, 247, 1);
+}
+.middlepage_upper>h3{
+    width: 266.67px;
+    height: 58px;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.14399999380111694px;
+    text-align: center;
+    /* background:linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%); */
+    color: rgba(255, 182, 255, 1);
+}
+.middlepage_upper>p{
+    width: 473px;
+    height: 25px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23100000619888306px;
+    text-align: center;
+    color: rgba(245, 245, 247, 1);
+}
+.middlepage_below{
+    width: 782px;
+    height: 542px;
+    background-color: #5598DE;
+}
+.love_power{
+    width: 90vw;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.love_upper{
+    width: 50%;
+    Height:265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.love_upper>img{
+    width: 96px;
+    height: 22px;
+    top: 8px;
+}
+.love_upper>h3{
+    width: 338.77px;
+    height: 110px;
+    top: 43px;
+    left: 150.61px;
+    font-family: SF Pro Display;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.14399999380111694px;
+    text-align: center;
+    color: rgba(30, 55, 145, 1);
+}
+.love_upper>p{
+    width: 468.35px;
+    height: 25px;
+    top: 178px;
+    left: 82.72px;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23100000619888306px;
+    text-align: center;
+    color: rgba(29, 29, 31, 1);
+}
+.love_below{
+    width: 50%;
+    height: 750px;
+    
+}
+.love_below>img{
+    width: 494px;
+    height: 700px;
+
+}
+.man{
+   margin: auto;
+   width: 90vw;
+   height: 810px;
+    /* background-color: #5598DE; */
+    background-image:  url(./assert/man_image.svg) ;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+.top{
+    width: 505.97px;
+    height: 501px;
+    padding: 302px, 0px, 0px, 218px;
+    /* background-color: #7F87FF; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.top>p{
+    /* margin-inline: 15px; */
+    width: 296.57px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2160000056028366px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.top>h3{
+    width: 296.57px;
+    height: 70px;
+    margin-top: 15px;
+    font-family: SF Pro Display;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.14399999380111694px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.top>button{
+    margin-top: 10px;
+    width: 142.23px;
+    height: 36px;
+    border-radius: 980px;
+    margin-right: 155px;
+    border: none;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.37400001287460327px;
+    text-align: center;
+}
+.wow{
+    margin-top: 30px;
+    width: 90vw;
+    margin: auto;
+    padding: 0px, 36px, 0px, 36px;
+    height: 617px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(1, 1, 42, 1);
+
+}
+.wow_left{
+    width: 462.83px;
+    height: 225px;
+    top: 209.5px;
+    left: 100.03px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.wow_left>img{
+    width: 90px;
+    height: 90px;
+}
+.wow_left>h3{
+    width: 452.63px;
+    height: 108px;
+    font-family: SF Pro Display;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: -0.27000001072883606px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.wow_left>p{
+    width: 265.45px;
+    height: 25px;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23100000619888306px;
+    text-align: center;
+    color: rgba(41, 151, 255, 1);
+}
+.wow_right{
+    width: 667px;
+    height: 555px;
+    top: 17px;
+    left: 662.92px;
+}
