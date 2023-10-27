@@ -405,3 +405,56 @@
     top: 17px;
     left: 662.92px;
 }
+#ways{
+    width: 494.49px;
+    height: 55px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: SF Pro Display;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.2800000011920929px;
+    text-align: center;
+    color: rgba(29, 29, 31, 1);
+}
+.way{
+    width: 90vw;
+    height: 2174px;
+    background-color: #2CA2B4;
+    margin: auto;
+
+}
+.save_upto{
+    width: 80vw;
+    height: 703px;
+    margin: auto;
+    margin-top: 5px;
+    background-color: rgb(169, 92, 92);
+}
+.cash_credit{
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
+}
+.credit{
+    width: 675px;
+    height: 751px;
+    background-color: #EC3D43;
+   
+}
+.cashback{
+    width: 675px;
+    height: 751px;
+    background-color: #eb999c; 
+    
+}
+.best_place{
+    width: 80vw;
+    height: 560px;
+    margin: auto;
+   margin-top: 20px;
+   background-color: aqua;
+
+}
