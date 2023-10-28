@@ -420,41 +420,353 @@
 }
 .way{
     width: 90vw;
-    height: 2174px;
-    background-color: #2CA2B4;
+    /* height: 2174px; */
+    background-color: #f5fbfb;
     margin: auto;
+    margin-bottom: 10px;
 
 }
 .save_upto{
     width: 80vw;
     height: 703px;
+    margin-top: 30px;
     margin: auto;
     margin-top: 5px;
-    background-color: rgb(169, 92, 92);
+    background: rgba(255, 255, 255, 1);
+
 }
 .cash_credit{
     display: flex;
     justify-content: space-around;
     width: 80vw;
     margin: auto;
+    gap: 10px;
 }
 .credit{
     width: 675px;
+    margin: auto;
     height: 751px;
-    background-color: #EC3D43;
-   
+    /* background-color: #EC3D43; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:  rgba(255, 255, 255,1);
+}
+.credit>div{
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23100000619888306px;
+    text-align: center;
+    width: 466.17px;
+    /* height: 83px; */
+    margin: auto;
+    /* background-color: aqua; */
+}  
+.credit>div>a{
+    text-decoration: none;
+} 
+.credit>h3{
+    width: 350.13px;
+    /* height: 110px; */
+    margin: auto;
+    /* background-color: #7aec3d; */
+    font-family: SF Pro Display;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.14399999380111694px;
+    text-align: center;
+
+}
+#credit_image>img{
+    margin-top: 60px;
 }
 .cashback{
     width: 675px;
+    margin: auto;
     height: 751px;
-    background-color: #eb999c; 
-    
+    /* background-color: #EC3D43; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:  rgba(255, 255, 255,1);
+   
 }
+.cashback>h3{
+    width: 350.13px;
+    /* height: 110px; */
+    margin: auto;
+    /* background-color: #7aec3d; */
+    font-family: SF Pro Display;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.14399999380111694px;
+    text-align: center;
+}
+.cashback>div{
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23100000619888306px;
+    text-align: center;
+    width: 466.17px;
+    /* height: 83px; */
+    margin: auto;
+    /* background-color:  */
+}
+.cashback>div>a{
+    text-decoration: none;
+} 
 .best_place{
     width: 80vw;
-    height: 560px;
+    /* height: 560px; */
     margin: auto;
    margin-top: 20px;
-   background-color: aqua;
+   /* background-color: aqua; */
 
+}
+.save_upto_r1>p{
+    /* margin-top: 30px; */
+    color: rgba(29, 29, 31, 1);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2160000056028366px;
+    text-align: center;
+
+}
+.save_upto_r1>h3{
+    margin-top: 50px;
+    width: 600px;
+    font-family: SF Pro Display;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.14399999380111694px;
+    text-align: center;
+    color: rgba(29, 29, 31, 1);
+
+
+}
+.save_upto_r2{
+    margin: auto;
+    width: 60vw;
+    height: 141px;
+    /* background-color: #EC3D43; */
+    display: flex;
+    /* gap: 5px; */
+    align-items: center;
+    justify-content: space-evenly;
+}   
+.save_upto_r2_1{
+    width: 200.5px;
+    height: 135px;
+    padding: 0px, 37.53px, 2px, 37.72px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.save_upto_r3{
+    width: 50vw;
+    margin: auto;
+    height: 133px;
+    padding: 0px, 300.03px, 0px, 300.02px;
+
+}
+.save_upto_r3>p{
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.37400001287460327px;
+    text-align: center;
+}
+.save_upto_r3>p>span{
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.37400001287460327px;
+    text-align: center;
+}
+.save_upto_r3>button{
+    border-radius: 20px;
+}
+.best_place>img{
+    width:80vw;
+    margin: auto;
+}
+.accessories{
+    width: 90vw;
+    background-color:rgba(255, 255, 255, 1);
+    margin: auto;
+
+}
+.accessories>h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.2800000011920929px;
+    text-align: center;
+
+}
+.feature_r1{
+    width: 80vw;
+    height: 540px;
+    /* background-color: #7F87FF; */
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: space-between; */
+}
+.feature_left{
+    width: 400px;
+    height: 198.39px;
+    margin: 10px;
+    text-align: left;
+
+}
+.feature_left>h5{
+    width: 193.39px;
+    height: 58px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.14399999380111694px;
+    text-align: center;
+}
+.feature_left>p{
+    width: 290.01px;
+    height: 83px;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23100000619888306px;
+    text-align: center;
+    color: rgba(29, 29, 31, 1);
+
+}
+.feature_left>a{
+    text-decoration: none;
+    width: 243.5px;
+    height: 25px;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23100000619888306px;
+    text-align: center;
+    color: rgba(0, 102, 204, 1);
+
+}
+.feature_right>img{
+    width: 633px;
+    height: 463px;
+}
+.airtag{
+    width: 80vw;
+    height: 540px;
+    /* background-color: #EC3D43; */
+    margin: auto;
+}
+#airtag{
+    width: 193.39px;
+    height: 58px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.14399999380111694px;
+    text-align: center;
+}
+#attach_one{
+    width: 290.01px;
+    height: 83px;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.23100000619888306px;
+    text-align: center;
+    color: rgba(29, 29, 31, 1);
+}
+#buy_more{
+    /* width: 80.48px; */
+    /* height: 25px; */
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23100000619888306px;
+    text-align: center;
+    color: rgba(0, 102, 204, 1);
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center;
+}
+.magic_run>img{
+    width: 84.1vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+
+}
+#shop_iphone{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.2160000056028366px;
+    text-align: center;
+    color: rgba(0, 102, 204, 1);
+
+}
+.fast_free{
+    width: 85vw;
+    height: 334.78px;
+    padding: 83px, 36px, 0px, 36px;
+    margin: auto;
+    margin-top: 10px;
+}
+.fast_free>div>img{
+    width: 80vw;
+    height: 251.78px;
+    margin: auto;
+    padding: 0px, 165px, 0px, 165px;
+}
+.apple16{
+    width: 80vw;
+    height: 1493px;
+    margin: auto;
+   background-color: #7F87FF;
+
+}
+.secondLast_footer{
+    width: 80vw;
+    height: 3094.42px;
+    margin: auto;
+    display: flex;
+    
+
+}
+.secondLast_footer>img{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
