@@ -759,14 +759,68 @@
 }
 .secondLast_footer{
     width: 80vw;
-    height: 3094.42px;
+    /* height: .42px; */
     margin: auto;
     display: flex;
+    margin-top: 20px;
     
 
 }
 .secondLast_footer>img{
     align-items: center;
     justify-content: center;
+    /* margin: auto; */
+    width: 80vw;
+}
+#apple_first {
+    width: 80vw;
+    height: 600px;
+    background-color: aqua;
+}
+#apple_second{
+    width: 675px;
+    height: 593px;
+    background-color: #F65AAD;
+
+}
+#section>img{
+    width:80vw;
+    /* margin: auto; */
+    margin-top: 10px;
+}
+.footer>img{
+    width: 75vw;
+    height: 414.31px;
     margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.section>footer{
+    width: 80vw;
+    height: 113px;
+
+}
+.footer_last{
+    width: 80vw;
+    height: 113.31px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .footer_last{
+    width: 75.98vw;
+    height: 113px;
+    margin: auto;
+} */
+.footer_last>img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80vw;
+    height: 113px;
+
+
 }
